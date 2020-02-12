@@ -2,7 +2,6 @@ var btnElement = document.querySelector('#btn');
         btnElement.setAttribute('onclick', 'newBox()');
 
         var newBox = function () {
-
             var boxElement = document.createElement('div');
             boxElement.style.width = '100px';
             boxElement.style.height = '100px';
