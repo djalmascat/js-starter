@@ -9,7 +9,6 @@ var btnElement = document.querySelector('#btn');
             boxElement.style.backgroundColor = '#000';
             boxElement.setAttribute('onmouseover', 'style.backgroundColor=newColor()');
 
-
             var containerApp = document.querySelector('#app');
             containerApp.appendChild(boxElement);
 
