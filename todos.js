@@ -5,7 +5,7 @@ var btnElement = document.querySelector('#btn');
             var boxElement = document.createElement('div');
             boxElement.style.width = '100px';
             boxElement.style.height = '100px';
-            boxElement.style.backgroundColor = '#000';
+            boxElement.style.backgroundColor = '#f00';
             boxElement.setAttribute('onmouseover', 'style.backgroundColor=newColor()');
 
             var containerApp = document.querySelector('#app');
